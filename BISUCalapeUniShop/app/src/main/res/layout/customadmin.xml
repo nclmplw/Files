@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idtext"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/logingbgb"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:hint="ID" />
+
+            <TextView
+                android:id="@+id/prtext"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:hint="Firstname" />
+
+            <TextView
+                android:id="@+id/pricetext"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:hint="Lastname" />
+
+            <TextView
+                android:id="@+id/presyo"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:hint="E-mail" />
+
+            <TextView
+                android:id="@+id/sizetext"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bgb"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:hint="Password" />
+
+            <TextView
+                android:id="@+id/sizetext"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bgb"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:hint="Password" />
+            
+            <TextView
+                android:id="@+id/sizetext"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bgb"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:hint="Password" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

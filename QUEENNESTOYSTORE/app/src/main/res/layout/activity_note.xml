@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bblue"
+    tools:context=".note">
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="54dp"
+        android:layout_height="47dp"
+        android:layout_x="9dp"
+        android:layout_y="217dp"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="241dp"
+        android:text="+639056559824"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="45dp"
+        android:layout_height="32dp"
+        android:layout_x="195dp"
+        android:layout_y="208dp"
+        app:srcCompat="@android:drawable/sym_action_chat" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="246dp"
+        android:layout_y="214dp"
+        android:text="Queenne's Toy Store"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="201dp"
+        android:layout_y="239dp"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="243dp"
+        android:text="queennes@email.com"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="217dp"
+        android:text="+639099039623"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="95dp"
+        android:layout_height="99dp"
+        android:layout_x="166dp"
+        android:layout_y="19dp"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="95dp"
+        android:layout_height="99dp"
+        android:layout_x="157dp"
+        android:layout_y="18dp"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="135dp"
+        android:text="Q U E E N N E ' s"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="164dp"
+        android:layout_y="185dp"
+        android:text="TOY  STORE"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="385dp"
+        android:layout_height="429dp"
+        android:layout_x="13dp"
+        android:layout_y="278dp"
+        android:background="#5C0699C6"
+        android:text="SIGN UP AND LOG IN TO EXPLORE MORE! :)"
+        android:textSize="30dp" />
+
+</AbsoluteLayout>

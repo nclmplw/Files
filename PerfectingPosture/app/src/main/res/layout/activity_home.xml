@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_home.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Upper Dashboard -->
+    <LinearLayout
+        android:id="@+id/dashboardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/goodStandingCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Good Standing: 0"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/goodSittingCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Good Sitting: 0"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/badPostureCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bad Posture: 0"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Floating Menu -->
+    <LinearLayout
+        android:id="@+id/floatingMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dashboardLayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Add your menu items (buttons, icons, etc.) here -->
+        <!-- Example: -->
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Home"
+            android:padding="8dp"
+            android:src="@drawable/ic_home" />
+    </LinearLayout>
+
+    <!-- Greetings and Date/Time -->
+    <TextView
+        android:id="@+id/greetingsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Hello, User!"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dateTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Updated: 01-01-2023 10:00 AM"
+        android:textSize="14sp" />
+    <!-- menu_items.xml -->
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/menu_history"
+            android:title="History"
+            android:icon="@drawable/ic_history" />
+
+        <item
+            android:id="@+id/menu_posture_check"
+            android:title="Posture Check"
+            android:icon="@drawable/ic_posture_check" />
+
+        <item
+            android:id="@+id/menu_settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings" />
+
+        <item
+            android:id="@+id/menu_account"
+            android:title="Account"
+            android:icon="@drawable/ic_account" />
+
+        <item
+            android:id="@+id/menu_login"
+            android:title="Log In"
+            android:icon="@drawable/ic_login" />
+
+        <item
+            android:id="@+id/menu_signup"
+            android:title="Sign Up"
+            android:icon="@drawable/ic_signup" />
+    </menu>
+
+</RelativeLayout>

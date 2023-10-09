@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bblue"
+    tools:context=".products">
+
+
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="112dp"
+        android:layout_height="58dp"
+        android:layout_x="21dp"
+        android:layout_y="605dp"
+        android:background="#C1DAEF"
+        android:gravity="center"
+        android:hint="NAME"
+        android:textColor="#002A49"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/pprice"
+        android:layout_width="112dp"
+        android:layout_height="44dp"
+        android:layout_x="21dp"
+        android:layout_y="669dp"
+        android:background="#C1DAEF"
+        android:gravity="center"
+        android:hint="₱"
+        android:textColor="#002A49"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/pdescription"
+        android:layout_width="255dp"
+        android:layout_height="110dp"
+        android:layout_x="140dp"
+        android:layout_y="605dp"
+        android:background="#C1DAEF"
+        android:gravity="center"
+        android:hint="DESCRIBE PRODUCT LOOK FOR TOYS THAT INSPIRE CHILD'S I M A G I N A T I O N."
+        android:textColor="#002A49"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+    android:id="@+id/imageView13"
+    android:layout_width="70dp"
+    android:layout_height="57dp"
+    android:layout_x="22dp"
+    android:layout_y="12dp"
+    app:srcCompat="@drawable/icon" />
+
+<ImageView
+    android:id="@+id/imageView14"
+    android:layout_width="70dp"
+    android:layout_height="57dp"
+    android:layout_x="28dp"
+    android:layout_y="12dp"
+    app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="12dp"
+        android:text="Q U E E N N E ' s"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="50dp"
+        android:text="TOY  STORE"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <ScrollView
+        android:layout_width="387dp"
+        android:layout_height="504dp"
+        android:layout_x="11dp"
+        android:layout_y="89dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:text="  INFANT"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_x="4dp"
+                android:layout_y="152dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/product11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product77"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product99"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product1100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView00"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:text="  TODDLER"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_x="4dp"
+                android:layout_y="152dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/product1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView000"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:text="  CHILD"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_x="4dp"
+                android:layout_y="152dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/product111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product222"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product333"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product444"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product555"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product777"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product888"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product999"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product111000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView0000"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:text="  TEEN"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_x="4dp"
+                android:layout_y="152dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/product1111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product2222"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product3333"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product4444"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product5555"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product6666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product7777"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product8888"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product9999"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product11110000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView00000"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:text="  YOUNG ADULT"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_x="4dp"
+                android:layout_y="152dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/product11111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product22222"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product33333"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product44444"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product55555"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product66666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product77777"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product88888"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product99999"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <ImageButton
+                        android:id="@+id/product1111100000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="75dp"
+                        android:layout_y="324dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</AbsoluteLayout>

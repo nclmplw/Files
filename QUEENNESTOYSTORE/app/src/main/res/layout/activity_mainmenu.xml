@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bblue"
+    tools:context=".mainmenu">
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="766dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bblue" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="108dp"
+        android:layout_y="6dp"
+        android:text="Q U E E N N E ' s"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="170dp"
+                android:layout_y="48dp"
+                android:text="TOY STORE"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="384dp"
+                android:layout_height="692dp"
+                android:layout_x="13dp"
+                android:layout_y="57dp"
+                app:srcCompat="@drawable/whitebckg" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="363dp"
+        android:layout_height="55dp"
+        android:layout_x="24dp"
+        android:layout_y="84dp"
+        android:gravity="center"
+        android:text=" WELCOME SHOPPER"
+        android:textColor="#2577D1"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="387dp"
+        android:layout_height="579dp"
+        android:layout_x="11dp"
+        android:layout_y="142dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_x="4dp"
+                android:layout_y="152dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#infant  "
+                        android:textColor="@color/teal_700"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#toddler  "
+                        android:textColor="@color/teal_700"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#child  "
+                        android:textColor="@color/teal_700"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#teen  "
+                        android:textColor="@color/teal_700"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#young adult  "
+                        android:textColor="@color/teal_700"
+                        android:textSize="30dp" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageButton
+                android:id="@+id/od"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView00000"
+                android:layout_width="385dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:gravity="center"
+                android:text="  OUTDOOR TOYS"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageButton
+                android:id="@+id/dt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="384dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:gravity="center"
+                android:text="  DEVELOPMENTAL TOY"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageButton
+                android:id="@+id/g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView00"
+                android:layout_width="387dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:gravity="center"
+                android:text="  GAMES"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageButton
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView000"
+                android:layout_width="386dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:gravity="center"
+                android:text="  DOLLS"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageButton
+                android:id="@+id/bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                tools:srcCompat="@tools:sample/avatars" />
+
+                    <TextView
+                android:id="@+id/textView0000"
+                android:layout_width="385dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="#68B1FF"
+                android:gravity="center"
+                android:text="  BABY TOYS"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</AbsoluteLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bblue"
+    tools:context=".order">
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="70dp"
+        android:layout_height="57dp"
+        android:layout_x="22dp"
+        android:layout_y="12dp"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="70dp"
+        android:layout_height="57dp"
+        android:layout_x="28dp"
+        android:layout_y="12dp"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="11dp"
+        android:text="Q U E E N N E ' s"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="163dp"
+        android:layout_y="54dp"
+        android:text="TOY  STORE"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+</AbsoluteLayout>
+

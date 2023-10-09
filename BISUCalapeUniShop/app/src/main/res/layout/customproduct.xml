@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/idtext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:background="@drawable/logingbgb"
+            android:gravity="center"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/prtext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="Product" />
+
+        <TextView
+            android:id="@+id/pricetext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="Price" />
+
+        <TextView
+            android:id="@+id/sizetext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:background="@drawable/bgb"
+            android:gravity="center"
+            android:text="Size" />
+    </LinearLayout>
+</RelativeLayout>

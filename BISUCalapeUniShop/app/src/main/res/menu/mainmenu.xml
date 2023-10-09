@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="HOME" />
+    <item
+        android:id="@+id/product"
+        android:icon="@drawable/ic_baseline_product_24"
+        android:title="PRODUCTS" />
+    <item
+        android:id="@+id/shop"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="SHOP" />
+    <item
+        android:id="@+id/admin"
+        android:icon="@drawable/ic_baseline_admin_center_24"
+        android:title="ADMIN">
+        <menu>
+            <item
+                android:id="@+id/customerinfo"
+                android:icon="@drawable/account_circle"
+                android:title="CUSTOMER INFORMATION" />
+            <item
+                android:id="@+id/admininfo"
+                android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+                android:title="ADMIN INFORMATION" />
+            <item
+                android:id="@+id/productinfo"
+                android:icon="@drawable/ic_baseline_product_24"
+                android:title="PRODUCT INFORMATION" />
+            <item
+                android:id="@+id/purchasedinfo"
+                android:icon="@drawable/ic_baseline_prodct"
+                android:title="PURCHASED INFORMATION" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/aboutus"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="ABOUT US" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_arrow_out_24"
+        android:title="LOGOUT" />
+</menu>

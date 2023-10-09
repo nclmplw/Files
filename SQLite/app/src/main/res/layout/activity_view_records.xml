@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewRecords">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="2dp"
+        android:text="VIEW RECORDS"
+        android:textColor="#0D8016"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listv"
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:layout_x="-2dp"
+        android:layout_y="35dp" />
+
+    <EditText
+        android:id="@+id/pilav"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="582dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/petsav"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="630dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nganv"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="382dp"
+        android:ems="10"
+        android:hint="FIRST NAME"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mnganv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="430dp"
+        android:ems="10"
+        android:hint="MIDDLE NAME"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/apilyedov"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="481dp"
+        android:ems="10"
+        android:hint="LAST NAME"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/itemnamev"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="531dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="ITEM NAME"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/presyov"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="582dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="674dp"
+        android:text="UPDATE" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_x="203dp"
+        android:layout_y="673dp"
+        android:text="DELETE" />
+
+    <EditText
+        android:id="@+id/totalpayablev"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="631dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_x="337dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
+
+</AbsoluteLayout>

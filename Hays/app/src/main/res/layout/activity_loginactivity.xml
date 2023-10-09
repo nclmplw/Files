@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="107dp"
+        android:layout_x="142dp"
+        android:layout_y="420dp"
+        android:background="@drawable/circlebg"
+        android:backgroundTint="#BAFFFFFF"
+        android:text="L O G  I N"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signupcustomer"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="28dp"
+        android:layout_x="36dp"
+        android:layout_y="390dp"
+        android:text="Don't have an account? Click"
+        android:textColor="#e5de00"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/signupcustomer"
+        android:layout_width="114dp"
+        android:layout_height="38dp"
+        android:layout_x="224dp"
+        android:layout_y="372dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#004A608C"
+        android:padding="5dp"
+        android:text="S I G N  U P"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="443dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutname"
+        android:layout_width="377dp"
+        android:layout_height="80dp"
+        android:layout_x="5dp"
+        android:layout_y="201dp"
+        app:endIconMode="clear_text"
+        app:helperTextTextColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="201dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="20dp"
+            android:hint="E-mail"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:startIconDrawable="@drawable/user" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputlayout"
+        android:layout_width="376dp"
+        android:layout_height="82dp"
+        android:layout_x="5dp"
+        android:layout_y="201dp"
+        app:helperTextTextColor="@android:color/holo_red_dark"
+        app:passwordToggleEnabled="true"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="299dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="20dp"
+            android:background="#FFFFFF"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#0E0E0E" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

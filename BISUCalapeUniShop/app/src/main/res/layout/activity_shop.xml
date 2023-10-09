@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unibisushop"
+    tools:context=".shop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/loginbg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/system"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bgb"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="SYSTEM UNIFORM"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/female"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FEMALE SET___________________________________₱780.00" />
+
+                <CheckBox
+                    android:id="@+id/male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="POLO SHIRT___________________________________₱540.00" />
+
+                <TextView
+                    android:id="@+id/whitecloth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bgb"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="CLOTH"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/clothembroidered"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WHITE CLOTH WITH                                                                EMBROIDERED BISU LOGO_______________₱280.00/meter" />
+
+                <CheckBox
+                    android:id="@+id/clothblue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BLUE CLOTH____________________________₱192.00/meter" />
+
+                <TextView
+                    android:id="@+id/departmental"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bgb"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="DEPARTMENTAL UNIFORM"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/bsfdepartmental"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BSF___________________________________________₱420.00" />
+
+                <CheckBox
+                    android:id="@+id/bscsdepartmental"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BSCS_________________________________________₱420.00" />
+
+                <CheckBox
+                    android:id="@+id/bsitdepartmental"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BSIT__________________________________________₱420.00" />
+
+                <CheckBox
+                    android:id="@+id/fpstdepartmental"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FPST_________________________________________₱420.00" />
+
+                <CheckBox
+                    android:id="@+id/bseddepartmental"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BSED__________________________________________₱420.00" />
+
+                <TextView
+                    android:id="@+id/peuni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bgb"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="P.E UNIFORM"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/pepants"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="P.E PANTS ONLY_______________________________₱360.00" />
+
+                <CheckBox
+                    android:id="@+id/petshirt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="P.E T-SHIRT ONLY__________________________________________₱180.00" />
+
+                <CheckBox
+                    android:id="@+id/peuniset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="P.E UNIFORM SET______________________________₱540.00" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="285dp"
+            android:orientation="vertical">
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:background="#B4FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".73"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="199dp" />
+
+            <TextView
+                android:id="@+id/sizeerror2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:background="#D5FFFFFF"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Product Size"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sizeerror"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:onClick="size"
+                    android:text="Small" />
+
+                <RadioButton
+                    android:id="@+id/xs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:onClick="size"
+                    android:text="XS" />
+
+                <RadioButton
+                    android:id="@+id/m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:onClick="size"
+                    android:text="Medium" />
+
+                <RadioButton
+                    android:id="@+id/l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:onClick="size"
+                    android:text="Large" />
+
+                <RadioButton
+                    android:id="@+id/xl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:onClick="size"
+                    android:text="XL" />
+
+                <RadioButton
+                    android:id="@+id/xxl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:onClick="size"
+                    android:text="XXL" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="252dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/ic_baseline_shopping_bag_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".73"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
